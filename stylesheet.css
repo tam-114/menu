@@ -1,0 +1,129 @@
+body {
+	font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
+}
+
+
+/*header*/
+.h2-header {
+	font-size: 20px;
+	padding: 10px;
+	color: palevioletred;
+	font-weight: 600;
+	text-shadow: 1px 1px 3px lightgray;
+}
+
+.col-style {
+	padding-top: 15px;
+}
+
+.col {
+	padding-top: 10px;
+}
+
+.col-logo {
+	padding-bottom: 5px;
+}
+
+.header-top {
+	background-color: white;
+	text-align: center;
+}
+
+/*nav*/
+
+/*nav color:  #00cc99; seagreen*/
+.bg-nav {
+	background-color:  #00cc99!important;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+/*header img*/
+.container-img {
+	position: relative;
+	text-align: center;
+	color: revert;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#opaque {
+	opacity: 0.55;
+}
+
+.h1-lg {
+	font-size: 70px;
+	text-shadow: 2px 2px;
+	padding: 5px 10px;
+	box-shadow: 5px 10px #00cc99;
+	font-family: 'Dancing Script', cursive;
+}
+
+/*food contents*/
+.h1-title {
+	color: palevioletred;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+}
+
+.h2-subtitle {
+	color: gray;
+	text-align: center;
+	font-size: 17px;
+	font-style: italic;
+}
+
+.h3-food-item{
+	color: darkgray;
+	text-align: center;
+}
+
+.price {
+	color: #00cc99;
+	text-align: center;
+}
+
+.info {
+	color: gray;
+	text-align: center;
+}
+
+.types {
+	color: gray;
+	text-align: center;
+}
+
+.food-img {
+	width: 300px;
+	height: 200px;
+	border: 1px solid #00cc99;
+	border-radius: 25%;
+}
+
+.row-style {
+	padding-top: 30px;
+}
+
+.img-break {
+	padding-top: 30px;
+	width: 100%;
+	height: 90vh;
+}
+
+.logo-border {
+	width: 80px;
+	height: 80px;
+	border: 2px solid #00cc99;
+	border-radius: 10%;
+}
+}

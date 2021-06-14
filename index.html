@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Restaurant Menu</title>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!--header-->
+	<div>
+		<div class="container header-top">
+			<div class="row justify-content-md-center">
+				<div class="col col-lg-2 col-style">
+					<h2 class="h2-header">Menu</h2>
+				</div>
+				<div class="col col-lg-2 col-style">
+					<h2 class="h2-header">Gallery</h2>
+				</div>
+				<div class="col col-lg-2 col-style">
+					<h2 class="h2-header">Location</h2>
+				</div>
+				<div class="col col-md-auto col-logo">
+					<img src="images/lily-garden-logo-no-border.png" class="logo-border">
+				</div>
+				<!--add a stylized order button-->
+			</div>
+		</div>
+	</div>
+
+	<!--nav-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-nav sticky-top">
+		<a class="navbar-brand" href="#">Menu</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+			 <ul class="navbar-nav ml-auto">
+		    	<li class="nav-item active">
+		        	<a class="nav-link" href="#apps">Appetizers <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+		        	<a class="nav-link" href="#soups">Soups & Congee</a>
+				</li>
+				<li class="nav-item">
+		        	<a class="nav-link" href="#salads">Salad</a>
+				</li>
+				<li class="nav-item">
+		        	<a class="nav-link" href="#chefs">Chef's Specialties</a>
+				</li>
+				<li class="nav-item">
+		        	<a class="nav-link" href="#drinks">Beverages</a>
+				</li>
+		  	</ul>
+		</div>
+	</nav>
+
+	<!--header-img-->
+	<div class="container-img">
+		<!--<img src="images/red-dumplings-bg.jpg" alt="red-dumplings-bg" width="100%" height="580px" id="opaque">-->
+		 <img src="images/dumpings-in-sauce-with-chopsticks.jpg" width="100%" height="580px" id="opaque">
+		<div class="center-text">
+			<h1 class="h1-lg" >Lily Garden Restaurant</h1>
+		</div>
+	</div>
+
+	<!--content/appetizers-->
+	<div class="container">
+		<h1 class="h1-title" id="apps">Appetizers</h1>
+		<h2 class="h2-subtitle">Enjoy a small dish of our cuisines before your meal</h2>
+			<div class="row row-style justify-content-center">
+				<div class="col col-md-auto">
+					<h3 class="h3-food-item">Egg Rolls</h3>
+					<p class="price">$1.99</p>
+					<p class="info">Savory roll with shredded cabbage and fillings inside a wheat flour skin.</p>
+					<p class="types"><strong>Types: </strong>chicken, pork, shrimp</p>
+				</div>
+				<div class="col col-md-auto">
+					<img src="images/egg-rolls.jpg" class="food-img">
+				</div>
+			</div>
+			<div class="row row-style justify-content-center">
+				<div class="col col-md-auto">
+					<img src="images/sesame-noodles.jpg" class="food-img">
+				</div>
+				<div class="col col-md-auto">
+					<h3 class="h3-food-item">Cold Sesame Noodles</h3>
+					<p class="price">$3.99</p>
+					<p class="info">Flavorful sesame noodles served cold with soy sauce.</p>
+				</div>
+			</div>
+			<div class="row row-style justify-content-center">
+				<div class="col col-md-auto">
+					<h3 class="h3-food-item">Dumplings</h3>
+					<p class="price">$2.99</p>
+					<p class="info">Wheat flour dough with a variety of fillings, served with soy sauce.</p>
+					<p class="types"><strong>Types: </strong>pork, chicken, vegetable</p>
+				</div>
+				<div class="col col-md-auto">
+					<img src="images/dumplings.jpg" class="food-img">
+				</div>
+			</div>
+			<div class="row row-style justify-content-center">
+				<div class="col col-md-auto">
+					<img src="images/chicken-wings.jpg" class="food-img">
+				</div>
+				<div class="col col-md-auto">
+					<h3 class="h3-food-item">Chicken Wings</h3>
+					<p class="price">$2.99</p>
+					<p class="info">Fried chicken wings coated with your choice of sauce.</p>
+					<p class="types"><strong>Types: </strong>B.B.Q., Honey Garlic, Salt & Pepper, Spicy</p>
+				</div>
+			</div>
+	</div>
+
+	<!--img breakpoint-->
+	<img src="images/soup.jpg" class="img-break">
+
+	<!--content/soups+congee-->
+	<div class="container">
+		<h1 class="h1-title" id="soups">Soups & Congee</h1>
+		<h2 class="h2-subtitle">Try our soups and rice porridge dishes</h2>
+			<div class="row row-style justify-content-center">
+					<div class="col col-md-auto">
+						<h3 class="h3-food-item">Egg Drop Soup</h3>
+						<p class="price">$2.50</p>
+						<p class="info">Wispy beaten eggs in chicken broth with onions.</p>
+						<p class="types"><strong>Types: </strong>original, wonton, tofu</p>
+					</div>
+					<div class="col col-md-auto">
+						<img src="images/egg-drop.jpg" class="food-img">
+					</div>
+				</div>
+				<div class="row row-style justify-content-center">
+					<div class="col col-md-auto">
+						<img src="images/hot-sour.jpg" class="food-img">
+					</div>
+					<div class="col col-md-auto">
+						<h3 class="h3-food-item">Hot and Sour Soup</h3>
+						<p class="price">$2.50</p>
+						<p class="info">Savory, spicy and tangy soup.</p>
+						<p class="types"><strong>Types: </strong>original, wonton</p>
+					</div>
+				</div>
+				<div class="row row-style justify-content-center">
+					<div class="col col-md-auto">
+						<h3 class="h3-food-item">Congee</h3>
+						<p class="price">$3.99</p>
+						<p class="info">Rice porridge with your choice of meat.</p>
+						<p class="types"><strong>Types: </strong>pork, fish</p>
+					</div>
+					<div class="col col-md-auto">
+						<img src="images/congee-pork.jpg" class="food-img">
+					</div>
+				</div>
+		</div>
+
+	<!--img breakpoint-->
+	<img src="images/salad.jpg" class="img-break">
+
+	<!--content:salads-->
+	<div class="container">
+		<h1 class="h1-title" id="salads">Salads</h1>
+		<h2 class="h2-subtitle">Choice of ginger dressing or sesame vinaigrette soy sauce</h2>
+			<div class="row row-style justify-content-center">
+					<div class="col col-md-auto">
+						<h3 class="h3-food-item">Side Salad</h3>
+						<p class="price">$2.50</p>
+						<p class="info">Garden salad with tomatoes and onions.</p>
+						<p class="types"><strong>Types: </strong>original, ginger, sesame vinaigrette</p>
+					</div>
+					<div class="col col-md-auto">
+						<img src="images/side-salad.jpg" class="food-img">
+					</div>
+				</div>
+
+
+<!--Javascript BootStrap script-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
