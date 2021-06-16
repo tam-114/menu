@@ -38,7 +38,13 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+.navbar-collapse {
+	background-color:  #00cc99!important;
+}
 
+span.vertical-bar {
+	border-right: 1px solid palevioletred;
+}
 
 /*header img*/
 .container-img {
